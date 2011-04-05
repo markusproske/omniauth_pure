@@ -1,0 +1,80 @@
+/* reset */
+* {	margin: 0; padding: 0; }
+
+/* tell the browser to render HTML 5 elements as block */
+header, footer, section, aside, nav, article { display: block; }
+
+/* basic styles */
+body { font-size: 14px; line-height: 1.5em; font-family: Verdana,Helvetica,Arial,sans-serif; background-color: #ffffff; }
+
+h1 { font-size: 18px; margin-bottom: 40px; }
+h2 { font-size: 16px; margin-bottom: 30px; }
+h3 { font-size: 14px; margin-bottom: 20px; }
+h4, h5, h6 { font-size: 14px; margin-bottom: 10px; }
+
+ul { list-style: square; margin: 0 0 0 40px; padding: 0; }
+
+p { margin: 0 0 10px 0; }
+.small { font-size: 12px; }
+.nomargin { margin: 0; }
+
+a { color: #74809a; text-decoration: none !important;}
+a:visited { color: #74809a; }
+a:hover { color: #c81419; }
+
+.round { border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.clear { clear: both; }
+.top150 { margin-top: 150px; }
+
+/* style the head section */
+#head { margin-bottom: 20px; padding: 0px 20px 20px 20px; border-bottom: 1px solid #bbbbbb; background-color: #eeeeee; }
+#head h1 { font-size: 24px; color: #c81419; margin: 0; }
+#head h1 sup { color: #74809a; font-style: italic; }
+
+#user { }
+
+/* navigation */
+nav { text-align: right; font-size: 12px; }
+nav ul { padding: 0; margin: 0; list-style: none; } 
+nav ul span { margin-right: 20px; }
+nav ul li { padding: 0; margin: 0 20px 0 0; display:inline; }
+nav li a { width: 100px; text-align: center; text-decoration: none; }
+nav ul li.selected a { color: #c81419; }
+
+/* the main section of the page, not to be confused with the body tag */
+#body { padding: 0 20px; }
+
+/* flash message */
+#flash { margin-bottom: 60px; }
+.flash { padding: 5px; background-color: #dddddd; }
+.error { color: #ffffff; background-color: #c81419; }
+.notice { background-color: #ffff00; }
+
+
+/* services - views: signin, signup and index of service controller */
+/* ---------------------------------------------------------------- */
+
+.services { margin: 0; padding: 0; }
+
+/* signin */
+#services_signin div { overflow:auto; margin-bottom: 40px; }
+
+/* signup: create new account */
+#services_new {}
+#services_new input { margin-right: 20px; }
+#services_new div { background-color: #dddddd; padding: 20px; margin-bottom: 40px; }
+
+/* manage your services */
+#services_manage {}
+
+.service_in_use { background-color: #dddddd; height: 64px; width: 300px; margin-bottom: 10px; padding: 5px; }
+.service_img { float: left; }
+.service_userdata { font-size: 12px; line-height: 1.1em; margin-left: 80px; padding-top: 6px;}
+.service_userdata span { color: #c81419; }
+
+#services_available { clear: both; margin-top: 40px; }
+
+/* the list with the available services that consist of icons and text */
+#services_list { margin: 20px 0; padding: 0; list-style: none; }
+#services_list li { display: inline; float: left; margin-right: 25px; margin-bottom: 20px; width: 100px; text-align: center; }
+#services_list img { display: block; margin-left: auto; margin-right: auto; }
