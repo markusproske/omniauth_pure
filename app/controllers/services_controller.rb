@@ -1,8 +1,6 @@
 class ServicesController < ApplicationController
   before_filter :authenticate_user!, :except => [:create, :signin, :signup, :newaccount, :failure]
-  
-  protect_from_forgery :except => :create     # https://github.com/intridea/omniauth/issues/203
-
+  protect_from_forgery :except => :create     
 
   # GET all authentication services assigned to the current user
   def index
