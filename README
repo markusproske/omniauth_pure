@@ -22,3 +22,7 @@ If you want to use Omniauth pure as a starting point in one of your applications
 * copy all views from services
 * copy (parts of) the stylesheet
 * and refer to the article for details...
+
+-----------------------------
+June 2012 - Jorge Barnaby
+Updated for Rails 3.2.6 and Omniauth 1.1.0
