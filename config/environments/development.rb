@@ -55,7 +55,7 @@ OmniauthDemo::Application.configure do
     
     # dedicated openid
     provider :openid, :store => OpenID::Store::Filesystem.new('/tmp'), :name => 'google', :identifier => 'https://www.google.com/accounts/o8/id'
-    # provider :google_apps, :store => OpenID::Store::Filesystem.new('./tmp'), :name => 'google_apps'
+    provider :google_apps, :store => OpenID::Store::Filesystem.new('/tmp'), :name => 'google_apps'
     # /auth/google_apps; you can bypass the prompt for the domain with /auth/google_apps?domain=somedomain.com
     
     provider :openid, :store => OpenID::Store::Filesystem.new('/tmp'), :name => 'yahoo', :identifier => 'yahoo.com' 

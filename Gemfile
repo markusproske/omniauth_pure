@@ -6,6 +6,7 @@ gem 'omniauth-facebook'
 gem 'omniauth-github'
 gem 'omniauth-twitter'
 gem 'omniauth-openid'
+gem 'omniauth-google-apps'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
