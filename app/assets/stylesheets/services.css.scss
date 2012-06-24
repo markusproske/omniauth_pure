@@ -1,5 +1,9 @@
+// Place all the styles related to the services controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
 /* reset */
-* {	margin: 0; padding: 0; }
+* { margin: 0; padding: 0; }
 
 /* tell the browser to render HTML 5 elements as block */
 header, footer, section, aside, nav, article { display: block; }
@@ -31,8 +35,6 @@ a:hover { color: #c81419; }
 #head h1 { font-size: 24px; color: #c81419; margin: 0; }
 #head h1 sup { color: #74809a; font-style: italic; }
 
-#user { }
-
 /* navigation */
 nav { text-align: right; font-size: 12px; }
 nav ul { padding: 0; margin: 0; list-style: none; } 
@@ -50,10 +52,8 @@ nav ul li.selected a { color: #c81419; }
 .error { color: #ffffff; background-color: #c81419; }
 .notice { background-color: #ffff00; }
 
-
 /* services - views: signin, signup and index of service controller */
 /* ---------------------------------------------------------------- */
-
 .services { margin: 0; padding: 0; }
 
 /* signin */
