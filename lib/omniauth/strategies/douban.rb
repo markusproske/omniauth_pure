@@ -1,4 +1,4 @@
-# https://github.com/liluo/omniauth-douban-oauth2/blob/master/lib/omniauth/strategies/douban.rb
+# taken from https://github.com/liluo/omniauth-douban-oauth2/blob/master/lib/omniauth/strategies/douban.rb
 require 'omniauth-oauth2'
 
 module OmniAuth
