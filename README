@@ -32,4 +32,4 @@ Nov 2012 - yumewang
 Add authentication with Weibo, Tqq, Douban, Renren in China.
 * config/environments/development.rb 中provider处的KEY，SECRET值，请用相应的授权应用的值。
 * 在本地尝试时，建议使用127.0.0.1，因为在weibo，tqq等的应用授权时，授权回调地址均采用的是127.0.0.1。
-
+附：http://ruby-china.org/topics/6464，请参考。
