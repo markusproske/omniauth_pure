@@ -1,5 +1,5 @@
 Read the full article "Omniauth pure: Authentication with Facebook, Google, Google Apps, Twitter, Github, AOL, MyOpenID and many other OpenID providers" on CommunityGuides: 
-http://www.communityguides.eu/articles/16
+http://communityguides.heroku.com/articles/16
 
 This article will demonstrate how to set up a multi-provider authentication using the fabulous Omniauth gem. Users will be able to add multiple providers to their account and views for sign-in, sign-up and management of linked accounts are provided. The full source code is available on Github as a basis for your own projects.
 
