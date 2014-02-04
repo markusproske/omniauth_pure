@@ -45,10 +45,17 @@ OmniauthDemo::Application.configure do
     require "openid/fetchers"
     OpenID.fetcher.ca_file = "#{Rails.root}/config/ca-bundle.crt"
     
+    require 'omniauth/strategies/douban.rb'
+    require 'omniauth/strategies/renren.rb'
+    
     # providers with id/secret, you need to sign up for their services (see below) and enter the parameters here
     provider :facebook, 'APP_ID', 'APP_SECRET'
     provider :twitter, 'CONSUMER_KEY', 'CONSUMER_SECRET'
     provider :github, 'CLIENT ID', 'SECRET'
+    provider :weibo, 'WEIBO_KEY', 'WEIBO_SECRET'
+    provider :tqq, 'TQQ_KEY', 'TQQ_SECRET'
+    provider :douban, 'DOUBAN_KEY', 'DOUBAN_SECRET'
+    provider :renren, 'RENREN_KEY', 'RENREN_SECRET'
     
     # generic openid
     provider :openid, :store => OpenID::Store::Filesystem.new('/tmp'), :name => 'openid'
